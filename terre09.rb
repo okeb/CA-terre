@@ -18,6 +18,6 @@ when 1
 when 0
   puts 'Renseignez un argument'
 else
-  puts 'Vous devez entrer un seul argument'
+  puts 'Envoyez un seul argument numérique au programme'
 end
 
