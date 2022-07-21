@@ -7,8 +7,8 @@ if ARGV.length == 2
       puts "votre premier argument semble ne pas être un chiffre"
     end
   else
-    puts "l'exposant ne doit pas être égal à 0 encore moins un lettre"
+    puts "l'exposant (le second argument) doit etre différent de 0"
   end
 else
-  puts "pas assez ou trop d'arguments"
+  puts "Le programme s'attends a recevoir deux argument"
 end
