@@ -31,21 +31,11 @@ if ARGV.length == 3
     if nb_1 > nb_2 && nb_2 > nb_3
       puts "#{nb_2}"
     else
-      puts "erreur"
+      puts "erreur."
     end
   else
-    puts ''
-    puts 'ERREUR'
-    puts '------'
     puts "verifiez vos arguments. le programme n'accepte que des entiers"
-    puts ''
   end
 else
-  puts ''
-  puts 'ERREUR'
-  puts '------'
   puts 'Ce programme requière trois arguments pour fonctionner'
-  puts ''
-  puts 'Envoyez trois nombres entiers au programme.'
-  puts ''
 end

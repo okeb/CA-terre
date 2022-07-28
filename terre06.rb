@@ -1,5 +1,9 @@
 # Créez un programme qui affiche l’inverse de la chaîne de caractères donnée en argument.
-word = ARGV[0].tr("\r\n", '!')
+word = ARGV[0]
+if ARGV.length != 1
+  puts 'erreur.'
+  exit
+end
 word_reverse = ''
 
 counter = word.length

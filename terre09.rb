@@ -1,6 +1,12 @@
 # Créez un programme qui affiche la racine carrée d’un entier positif.
+
+
 case ARGV.length
 when 1
+  if ARGV[0].match(/\A[+-]?\d+?(_?\d+)*(\.\d+e?\d*)?\Z/).nil?
+    puts "erreur."
+    exit
+  end
   if ARGV[0].ord == 48 && ARGV[0].to_i.ord.zero?
     puts '0'
   elsif ARGV[0].ord == 49 && ARGV[0].to_i.ord == 1
